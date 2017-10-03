@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import ie.cit.soft8027.liveexercise1.entity.LearningOutcome;
 import ie.cit.soft8027.liveexercise1.rowmapper.LearningOutcomeRowMapper;
 
-// MISSING!
+@Repository
 public class JdbcLearningOutcomeRepository // MISSING!
 
 	// MISSING!
