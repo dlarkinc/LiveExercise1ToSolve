@@ -12,7 +12,7 @@ import ie.cit.soft8027.liveexercise1.repository.ModuleRepository;
 // MISSING!
 public class LearningServiceImpl // MISSING!
 
-	// MISSING!
+	@Autowire
 	private ModuleRepository moduleRepo;
 
 	// MISSING!
