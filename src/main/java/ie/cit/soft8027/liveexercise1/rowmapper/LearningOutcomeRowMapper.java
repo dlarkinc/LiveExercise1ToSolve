@@ -8,7 +8,7 @@ import org.springframework.jdbc.core.RowMapper;
 import ie.cit.soft8027.liveexercise1.entity.LearningOutcome;
 import ie.cit.soft8027.liveexercise1.entity.Module;
 
-public class LearningOutcomeRowMapper // MISSING!
+public class LearningOutcomeRowMapper implements RowMapper<LearningOutcome> {
 
 	@Override
 	public LearningOutcome mapRow(ResultSet rs, int row) throws SQLException {
