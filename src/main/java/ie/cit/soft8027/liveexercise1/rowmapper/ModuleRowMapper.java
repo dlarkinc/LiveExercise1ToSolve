@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.RowMapper;
 
 import ie.cit.soft8027.liveexercise1.entity.Module;
 
-public class ModuleRowMapper // MISSING!
+public class ModuleRowMapper implements RowMapper<Module> {
 
 	@Override
 	public Module mapRow(ResultSet rs, int row) throws SQLException {
