@@ -10,7 +10,7 @@ import ie.cit.soft8027.liveexercise1.repository.LearningOutcomeRepository;
 import ie.cit.soft8027.liveexercise1.repository.JdbcModuleRepository;
 
 // MISSING!
-public class LearningServiceImpl // MISSING!
+public class LearningServiceImpl { // MISSING!
 
 	@Autowired
 	private ModuleRepository moduleRepo;
