@@ -7,15 +7,15 @@ import org.springframework.stereotype.Service;
 
 import ie.cit.soft8027.liveexercise1.entity.Module;
 import ie.cit.soft8027.liveexercise1.repository.LearningOutcomeRepository;
-import ie.cit.soft8027.liveexercise1.repository.JdbcModuleRepository;
+import ie.cit.soft8027.liveexercise1.repository.ModuleRepository;
 
-// MISSING!
-public class LearningServiceImpl { // MISSING!
+@Service
+public class LearningServiceImpl implements LearningService {
 
 	@Autowired
 	private ModuleRepository moduleRepo;
 
-	// MISSING!
+	@Autowired
 	private LearningOutcomeRepository loRepo;
 	
 	/**
